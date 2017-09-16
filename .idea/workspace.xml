@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d1019cd-ceb7-4a94-84ec-f3e8fa2d326d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static_files/css/reset.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static_files/css/main.css" afterPath="$PROJECT_DIR$/static_files/css/main.css" />
     </list>
@@ -28,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="369">
+              <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -38,8 +37,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static_files/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="717">
+              <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -71,8 +70,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/static_files/css/style.css" />
-        <option value="$PROJECT_DIR$/static_files/css/main.css" />
         <option value="$PROJECT_DIR$/static_files/css/reset.css" />
+        <option value="$PROJECT_DIR$/static_files/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -82,6 +81,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="1">
@@ -124,6 +126,12 @@
               <item name="static_files" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Realtr-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Realtr-site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static_files" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fonts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -149,6 +157,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3d1019cd-ceb7-4a94-84ec-f3e8fa2d326d" name="Default" comment="" />
@@ -156,12 +167,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505591218876</updated>
-      <workItem from="1505591220219" duration="1405000" />
+      <workItem from="1505591220219" duration="6024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1405000" />
+    <option name="totallyTimeSpent" value="6024000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="1" />
@@ -205,14 +216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static_files/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static_files/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -221,10 +224,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static_files/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="369">
+          <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
           <folding />
         </state>
       </provider>
