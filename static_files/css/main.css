@@ -1,4 +1,149 @@
+@font-face {
+    font-family: 'SignPainter';
+    src: url(../fonts/SignPainter.ttc);
+}
+
+@font-face {
+    font-family: 'Helvetica Neue UltraLight';
+    src: url(../fonts/HelveticaNeue.dfont);
+}
+
 body{
     background-image: url(../img/hero.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
+
+#nav .home a{
+    font-family: SignPainter,sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 44px;
+    margin-left: 20px;
+}
+
+#nav .about a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -25px;
+}
+
+.title h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.title h2{
+    color: #FFF;
+    text-align: center;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',Arial, Helvetica, sans-serif;
+}
+
+#content{
+    width: 70%;
+    margin: auto;
+    background-color: red;
+}
+
+.steps{
+    width: 30%;
+    height: 350px;
+    background-color: #FFF;
+    border-radius: 5px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.steps .icon{
+    height: 100px;
+    width: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    border: 1px solid #3498db;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.steps .description li{
+    list-style: none;
+    color: #3498db;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+#step1 .icon svg{
+    fill: #2ecc71;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#step2 .icon svg{
+     fill: #e74c3c;
+     margin-top: 25px;
+     margin-left: 25px;
+ }
+
+#step3 .icon svg{
+    fill: #ecf0f1;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.button{
+    text-decoration: none;
+    width: 210px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #3498db;
+    position: absolute;
+    right: 42%;
+    top: 85%;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.button a:visited{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.buttonTitle{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 12px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Helvetica Neue UltraLight', 'Helvetica Neue',Arial, Helvetica, sans-serif;
+}
+
+footer{
+    color: #FFF;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    bottom: 0;
+    right: 0;
+    position:absolute;
+    float: right;
+}
+
+
