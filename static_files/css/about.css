@@ -21,18 +21,15 @@
 }
 
 #nav .about a{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #FFF;
     font-size: 16px;
     float: right;
-    margin-right: 20px;
+    margin-right: 25px;
     margin-top: -25px;
 }
 
-#nav {
-  background-color: black;
-}
 
 body{
     background-color: white;
@@ -54,7 +51,7 @@ body{
 
 .top h1{
   color: white;
-  font-size: 60px;
+  font-size: 80px;
   padding-top: 275px;
   font-weight: lighter;
   text-align: center;
@@ -76,9 +73,11 @@ body{
 p{
 	text-align: center;
 	width: 90%;
-	max-width: 400px;
+	max-width: 780px;
 	margin: 0 auto;
-	font-size: 18px;
+	font-size: 21px;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',Arial, Helvetica, sans-serif;
+
 }
 
 /* Row of green color */
