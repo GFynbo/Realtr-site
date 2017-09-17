@@ -1,0 +1,119 @@
+/* ABOUT.HTML */
+
+
+@font-face {
+    font-family: 'SignPainter';
+    src: url(../fonts/SignPainter.ttc);
+}
+
+@font-face {
+    font-family: 'Helvetica Neue UltraLight';
+    src: url(../fonts/HelveticaNeue.dfont);
+}
+
+/* top naviagtion bar */
+#nav .home a{
+    font-family: SignPainter,sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 44px;
+    margin-left: 20px;
+}
+
+#nav .about a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -25px;
+}
+
+#nav {
+  background-color: black;
+}
+
+body{
+    background-color: white;
+
+}
+
+/* Opening image */
+.hero {
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(../img/hero.jpg);
+    margin-top: -100px;
+}
+
+/* Opening title*/
+
+.top h1{
+  color: white;
+  font-size: 60px;
+  padding-top: 275px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',Arial, Helvetica, sans-serif;
+}
+
+
+/* Inspiration Title */
+.row h3{
+    margin-bottom: 50px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',Arial, Helvetica, sans-serif;
+}
+
+/* Paragraphs */
+p{
+	text-align: center;
+	width: 90%;
+	max-width: 400px;
+	margin: 0 auto;
+	font-size: 18px;
+}
+
+/* Row of green color */
+.row {
+  color: #252527;
+  padding: 50px 0px 100px 0px; /*top, right, bottom, and left*/
+  border-bottom: 1px solid #f1f1f1;
+  background-color: #2ecc71;
+  position: relative;
+}
+
+/* Image Background Color */
+.icon {
+  width: 100%;
+  background-color: #FFF;
+  position: relative;
+  padding: 0px 0px 100px 0px; /*top, right, bottom, and left*/
+}
+
+/* Image Title */
+.icon h4{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 50px;
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue',Arial, Helvetica, sans-serif;
+}
+
+/* Image of Us */
+#us {
+  width: 700px;
+	height: 500px;
+	background-image: url(../img/hackmit_2017.jpg);
+  margin: 0 auto;
+	margin-bottom: 10px;
+	background-size: cover;
+}
